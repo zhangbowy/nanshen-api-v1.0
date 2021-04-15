@@ -1,0 +1,76 @@
+{
+  "name": "yuncixiu-api-v3",
+  "description": "云刺綉Api",
+  "version": "1.0.0",
+  "author": "杭州千盟网络科技有限公司",
+  "scripts": {
+    "start": "node development.js",
+    "prod": "tsc && node production.js",
+    "compile": "./node_modules/.bin/tsc",
+    "lint": "tslint \"src/**/*.ts\""
+  },
+  "dependencies": {
+    "adm-zip": "^0.4.14",
+    "color": "^3.1.2",
+    "cos-nodejs-sdk-v5": "^2.5.20",
+    "gm": "^1.23.1",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.15",
+    "node-pinyin": "^0.2.3",
+    "node-xlsx": "^0.15.0",
+    "qcloudsms_js": "^0.1.1",
+    "qr-image": "^3.2.0",
+    "replace-color": "^2.3.0",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.5",
+    "sha1": "^1.1.1",
+    "tencentcloud-sdk-nodejs": "^3.0.181",
+    "think-cache": "^1.1.1",
+    "think-cache-file": "^1.1.1",
+    "think-cache-redis": "^1.2.5",
+    "think-fetch": "^1.1.2",
+    "think-model": "^1.4.2",
+    "think-model-mysql": "^1.1.2",
+    "think-session": "^1.1.5",
+    "think-session-cookie": "^1.1.3",
+    "think-session-file": "^1.1.2",
+    "think-svg-captcha": "^1.0.3",
+    "think-view": "^1.0.12",
+    "think-view-nunjucks": "^1.0.10",
+    "think-websocket": "^1.0.7",
+    "think-websocket-socket.io": "^1.0.11",
+    "think-wechat": "^1.1.0",
+    "thinkjs": "^3.2.11",
+    "thinkjs3-ts": "^1.0.1",
+    "wechat-api": "^1.35.1",
+    "weixin-pay": "^1.1.7",
+    "xml2js": "^0.4.23"
+  },
+  "devDependencies": {
+    "typescript": "^2.5.3",
+    "@types/koa": "*",
+    "@types/node": "14.6.0",
+    "node-notifier": "^5.0.2",
+    "think-watcher": "^3.0.0",
+    "think-inspect": "0.0.2",
+    "think-typescript": "^1.0.4",
+    "tslint": "^5.8.0"
+  },
+  "repository": "",
+  "license": "MIT",
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "readmeFilename": "README.md",
+  "thinkjs": {
+    "metadata": {
+      "name": "yuncixiu-api-v3",
+      "description": "云刺綉Api",
+      "author": "杭州千盟网络科技有限公司"
+    },
+    "projectName": "yuncixiu-api-v3",
+    "template": "typescript",
+    "clone": false,
+    "isMultiModule": false
+  }
+}

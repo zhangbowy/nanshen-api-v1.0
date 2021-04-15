@@ -1,0 +1,17 @@
+import * as ThinkJS from '../node_modules/thinkjs';
+import './extend/controller';
+import './extend/logic';
+import './extend/context';
+import './extend/think';
+import './extend/service';
+import './extend/application';
+import './extend/request';
+import './extend/response';
+import 'think-view';
+import 'think-model';
+import 'think-cache';
+import 'think-session';
+import 'think-fetch';
+import 'think-svg-captcha';
+import 'sharp';
+export const think = ThinkJS.think;
